@@ -1,0 +1,106 @@
+*{
+    margin: 0;padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    height: 90px;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #ff0101;
+}
+header a img{
+    padding-left: 85px;
+    padding-right: 44px;
+    width: 120px;
+    border-right: 1px solid #ffffff;
+}
+header button{
+    background-color: #b90ec5;
+    color: white;
+    margin-left: 400px;
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+header button:hover{
+    background-color: #fe0000;
+    color: rgb(255, 255, 255);
+    border: 1px solid #e50808;
+    margin-left: 400px;
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+main{
+    background-image: url(./Assets/bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    height: calc(100vh - 90px);
+    width: 100%;
+    align-items: center;
+}
+main p{
+    color: white;
+    font-size: 70px;
+    font-weight:700;
+    height: 80px;
+}
+.first{
+    padding-top: 110px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+main button{
+    background-color: #b90ec5;
+    margin-top: 40px;
+    color: white;
+    height: 60px;
+    width: 250px;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 600;
+    border: none;
+}
+main button:hover{
+    background-color: #fe0000;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #e50808;
+    height: 60px;
+    width: 250px;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 600;
+    
+}
